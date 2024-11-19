@@ -19,7 +19,9 @@ const Auth = () => {
           <div className={styles.regForm}>
             <Form>
               <FormGroup>
-                <Label for="fullName" className={styles.regFormLabel}>Full Name</Label>
+                <Label for="fullName" className={styles.regFormLabel}>
+                  Full Name
+                </Label>
                 <Input
                   id="fullName"
                   name="fullName"
@@ -28,7 +30,7 @@ const Auth = () => {
                 />
               </FormGroup>
               <FormGroup>
-                <Label for="email">Email address</Label>
+                <Label for="email" className={styles.regFormLabel}>Email address</Label>
                 <Input
                   id="email"
                   name="email"
@@ -37,7 +39,7 @@ const Auth = () => {
                 />
               </FormGroup>
               <FormGroup>
-                <Label for="phoneNumber">Phone Number</Label>
+                <Label for="phoneNumber" className={styles.regFormLabel}>Phone Number</Label>
                 <Input
                   id="phoneNumber"
                   name="phoneNumber"
@@ -46,7 +48,7 @@ const Auth = () => {
                 />
               </FormGroup>
               <FormGroup>
-                <Label for="password">Password</Label>
+                <Label for="password" className={styles.regFormLabel}>Password</Label>
                 <Input
                   id="password"
                   name="password"
@@ -55,7 +57,7 @@ const Auth = () => {
                 />
               </FormGroup>
               <FormGroup>
-                <Label for="confirmPassword">Confirm Password</Label>
+                <Label for="confirmPassword" className={styles.regFormLabel}>Confirm Password</Label>
                 <Input
                   id="confirmPassword"
                   name="confirmPassword"
@@ -71,7 +73,7 @@ const Auth = () => {
         </div>
       </div>
       <div className={styles.rightSection}>
-        <img src={loginImage} alt="loginImG" className={styles.loginImage}/>
+        <img src={loginImage} alt="loginImG" className={styles.loginImage} />
       </div>
     </div>
   );
