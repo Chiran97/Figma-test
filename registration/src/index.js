@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AuthPage from "./pages/AuthPage";
+import VideoListPage from "./pages/VideoListPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/register' element={<AuthPage/>} />
+        <Route path='/video' element={<VideoListPage/>} />
       </Routes>
     </BrowserRouter>
     <App />

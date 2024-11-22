@@ -40,6 +40,7 @@
 
 .rightSection {
   width: calc(100vw-663px);
+  max-width: 900px;
 }
 
 .loginImage {
