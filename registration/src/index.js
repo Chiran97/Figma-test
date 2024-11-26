@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AuthPage from "./pages/AuthPage";
 import VideoListPage from "./pages/VideoListPage";
+import PopupModal from "./components/PopupModal";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path='/register' element={<AuthPage/>} />
         <Route path='/video' element={<VideoListPage/>} />
+        <Route path='/popup' element={<PopupModal/>} />
       </Routes>
     </BrowserRouter>
     <App />
